@@ -140,6 +140,31 @@ function convertToRomanNumerals(/* num */) {
  */
 function convertNumberToString(/* numberStr */) {
   throw new Error('Not implemented');
+  // const digitToWords = {
+  //   0: 'zero',
+  //   1: 'one',
+  //   2: 'two',
+  //   3: 'three',
+  //   4: 'four',
+  //   5: 'five',
+  //   6: 'six',
+  //   7: 'seven',
+  //   8: 'eight',
+  //   9: 'nine',
+  // };
+
+  // let result = '';
+  // for (let i = 0; i < numberStr.length; i += 1) {
+  //   const char = numberStr[i];
+  //   if (char === '-') {
+  //     result += 'minus ';
+  //   } else if (char === '.' || char === ',') {
+  //     result += 'point ';
+  //   } else {
+  //     result += `${digitToWords[char]} `;
+  //   }
+  // }
+  // return result.trim();
 }
 
 /**
